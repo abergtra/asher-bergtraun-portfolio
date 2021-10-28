@@ -1,0 +1,165 @@
+body {
+  margin: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-color: #B5A292; 
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+header{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+ul{
+  /*remove bullets from list items*/
+  list-style-type: none; 
+}
+
+/* nav element spacing through li margins  */
+li{
+  margin-right: 80px;
+  margin-left: 80px;
+  color: white;
+}
+
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* project thumbnails styling -- bootstrap implementation would be a good look*/
+
+.projects-box{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around;
+width: 1000px;
+height: 1000px;
+
+}
+
+.project{
+  height: 200px;
+  width: 250px;
+  margin: 10px;
+  padding: 20px;
+  border: #c7b8b8 5px solid;
+  border-radius: 15%;
+  
+}
+
+div.project:hover{
+  opacity: .7;
+ 
+}
+
+
+.contact-form{
+  border: #c7b8b8 5px solid;
+  border-radius: 10%;
+  width: 250px;
+}
+
+.profile-image{
+  height: 300px;
+  width: 400px;
+  float: left;
+  margin-right: 15px;
+}
+
+#resume{
+  height: 800px;
+  width: 600px;
+}
+
+
+/*projects' background images */
+
+#project1{
+  background-image: url(assets/0.jpeg) ;
+  background-color: black ;
+  background-size: cover;
+  height: 200px;
+
+}
+
+#project2{
+  background-image: url(assets/1.jpeg) ;
+  background-color: black ;
+  background-size: cover;
+  height: 200px;
+ 
+}
+
+#project3{
+  background-image: url(assets/2.jpeg) ;
+  background-color: black ;
+  background-size: cover;
+  height: 200px;
+
+}
+
+#project4{
+  background-image: url(assets/3.jpeg) ;
+  background-color: black ;
+  background-size: cover;
+  height: 200px;
+  
+}
+
+#project5{
+  background-image: url(assets/4.jpeg) ;
+  background-color: black ;
+  background-size: cover;
+  height: 200px;
+  
+}
+
+
+
+.form-field .message-field{
+  margin: 5px;
+  width: 200px;
+  color: #FFF3D9;
+}
+
+.message-field{
+  width: 200px;
+  
+}
+
+.component-header{
+  color: #FFF3D9
+}
+
+.subheader{
+  font-size: 15px;
+}
+
+.project-description{
+  font-size: small;
+  color: #948155;
+  background-color: white;
+}
+
+.about-description{
+  color: #FFF3D9;
+}
+
+.form-labels{
+  color: #FFF3D9;
+}
