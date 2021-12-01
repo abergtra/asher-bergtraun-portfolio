@@ -7,7 +7,7 @@ function Header(props){
         
         <header>
         <h1 className="component-header">
-           Thomas Walker
+           Asher Bergtraun
            <p className = "subheader "> Full Stack Developer (MERN)</p>
            <p className = "subheader "> Java, MySQL, Python, C++, TypeScript </p>
        

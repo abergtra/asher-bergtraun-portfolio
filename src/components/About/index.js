@@ -10,7 +10,10 @@ function About(){
            
             <h6 className="about-description"> 
             
-            Full Stack Web Developer with experience in multiple programming languages and a passion for problem-solving. A chess teacher with strong communication skills and a collaborative spirit, experienced in handling and conveying complex technical concepts. Polished analytical skills for effective debugging and algorithm design.             
+            Enthusiastic trilingual (Fluent English, Italian, French) Software Engineer with a background in Mechanical Engineering working in San Francisco. <br></br>
+            Experienced in multiple programming languages with experience applying them to real world mechanical applications in fields including manufacturing, construction, and robotics. <br></br>
+            A collaborative self starter with a passion for sustainable design that can have a positive impact on the world.
+
             </h6>
 
         </div>
